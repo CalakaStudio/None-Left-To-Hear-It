@@ -12167,7 +12167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533085464}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.050625287, y: -0.19503592, z: 0.010081046, w: 0.9794368}
+  m_LocalRotation: {x: 0.05078522, y: -0.19503427, z: 0.010112896, w: 0.9794285}
   m_LocalPosition: {x: 34.4, y: 7, z: -23.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12539,7 +12539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560727923}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.042434033, y: 0.23215994, z: -0.010138412, w: 0.9716987}
+  m_LocalRotation: {x: 0.0425684, y: 0.23215857, z: -0.010170518, w: 0.97169286}
   m_LocalPosition: {x: -21.25, y: 7, z: -31.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15684,7 +15684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758596490}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.056740474, y: 0.081498854, z: -0.0046473057, w: 0.9950462}
+  m_LocalRotation: {x: 0.05691942, y: 0.081498, z: -0.0046619605, w: 0.99503595}
   m_LocalPosition: {x: 2.26, y: 7, z: -22.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19471,6 +19471,8 @@ MonoBehaviour:
   saveData: {fileID: 11400000, guid: b2d310bacfd661f4595103f73f861525, type: 2}
   positionToSpawn: {x: -17, y: 0.6308119, z: 11.88}
   rotationToSpawn: {x: 0, y: -0.9961947, z: 0, w: 0.087155804}
+  turnOnPanel: {fileID: 0}
+  TextToDisplay: 
 --- !u!1 &946033161 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 858dcafe12681e344b4c0037da5cd48d,
@@ -22909,6 +22911,8 @@ MonoBehaviour:
   saveData: {fileID: 11400000, guid: b2d310bacfd661f4595103f73f861525, type: 2}
   positionToSpawn: {x: 10.5, y: 0.6308122, z: 33.24}
   rotationToSpawn: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  turnOnPanel: {fileID: 0}
+  TextToDisplay: 
 --- !u!65 &1094782211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43132,15 +43136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 847e620a0be40ce49acbf83af3c82657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerData: {fileID: 11400000, guid: d1a095b37d3d3b549880142d542f7fb1, type: 2}
-  managerData: {fileID: 11400000, guid: d9ccdd80773d1084cb2831062870e7f9, type: 2}
-  pickUps:
-  - {fileID: 11400000, guid: a43ff2ea6fd288b4aba85ab323cf95ef, type: 2}
-  - {fileID: 11400000, guid: f01c4871fc670c144af066e41a2499a0, type: 2}
-  - {fileID: 11400000, guid: 9e927056e3ee4c846b3dd574e583487d, type: 2}
-  enemies:
-  - {fileID: 11400000, guid: 6de78a79f6b0c8342bcb4e05f4c310cd, type: 2}
-  player: {fileID: 0}
 --- !u!114 &1920424481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43185,6 +43180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GM: {fileID: 11400000, guid: d9ccdd80773d1084cb2831062870e7f9, type: 2}
   items: {fileID: 1920424482}
+  playerData: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &1920424484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43199,7 +43196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   managerData: {fileID: 11400000, guid: d9ccdd80773d1084cb2831062870e7f9, type: 2}
   playerData: {fileID: 11400000, guid: d1a095b37d3d3b549880142d542f7fb1, type: 2}
-  IManager: {fileID: 1920424482}
+  ItemsLists: []
+  enemies: []
 --- !u!1 &1921093796 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8816573328441544956, guid: 858dcafe12681e344b4c0037da5cd48d,
@@ -48223,7 +48221,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.23333333
+  m_VoxelSize: 0.13333334
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 28bf442b6f8f5af47b2c8c6674b112bd, type: 2}
   m_BuildHeightMesh: 0

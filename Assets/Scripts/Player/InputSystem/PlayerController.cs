@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
     [Header("PlayerStatus")]
     [SerializeField] bool isAim = false; //Checa si el jugador esta apuntando
     [SerializeField] bool isAimingAnim = false;
-    [SerializeField] float isRun = 0; //Checa si el jugador esta apuntando
+    [SerializeField] float isRun = 0; //Checa si el jugador esta corriendo
     [SerializeField] public bool isInteracting = false; //Checa si el jugador esta interactuando
     [SerializeField] bool isTakingDamage = false; //Checa si el jugador esta recibiendo daño
     [Space(5)]
@@ -89,8 +89,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnEnable()
     {
+        Debug.Log("EventAddedAim");
         Aim.action.performed += EnterThirdPerson;
+        Debug.Log("EventAddedShoot");
         Shoot.action.performed += PlayerShoot;
+        Debug.Log("EventAddedAim");
         Interact.action.performed += InteractCall;
 
         cameraManager = GameObject.Find(cameraObjectName).GetComponent<CameraManager>();
@@ -168,6 +171,7 @@ public class PlayerController : MonoBehaviour
 
     private void InteractCall(InputAction.CallbackContext context)
     {
+        Debug.Log("PerformedInteracted");
         Ray r = new Ray (transform.position, transform.forward);
         if(Physics.Raycast(r, out RaycastHit hitInfo, interactRange, interactLayer))
         {
@@ -192,6 +196,7 @@ public class PlayerController : MonoBehaviour
         if(!isGrounded)
         {
             controller.Move(new Vector3(0, -1, 0));
+            Debug.Log("Gravity");
         }
         else
         {
@@ -218,6 +223,7 @@ public class PlayerController : MonoBehaviour
                 else
                 {
                     controller.Move(transform.forward * playerInput.y * playerRunSpeed * Time.deltaTime * managerData.gameTime);
+                    Debug.Log("RUN");
                     pAnimator.Play(a_Run);
                 }
             }

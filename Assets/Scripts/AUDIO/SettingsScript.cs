@@ -52,7 +52,6 @@ public class SettingsScript : MonoBehaviour
 
         for (int i = 0; i < resolutions.Length; i++)
         {
-            Debug.Log("Resolution: " + resolutions[i]);
             if ((float)resolutions[i].refreshRateRatio.value == currentRefreshRate)
             {
                 filteredResolutions.Add(resolutions[i]);

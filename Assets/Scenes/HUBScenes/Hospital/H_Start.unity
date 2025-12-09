@@ -12272,7 +12272,7 @@ MonoBehaviour:
   positionToSpawn: {x: -8.25, y: 0.029, z: 20}
   rotationToSpawn: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   turnOnPanel: {fileID: 11400000, guid: 5aeb7b66046780548a25daa09bc78cf8, type: 2}
-  TextToDisplay: It appears to be closed, the key must be nearby.
+  TextToDisplay: Esta cerrada. La llave debe estar cerca.
 --- !u!65 &1094782211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12454,7 +12454,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: "A bottle of painkillers. \nThey numb the pain."
+      value: "Una bote de p\xEDldoras.\nAyudan a calmar el dolor."
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -14845,7 +14845,7 @@ PrefabInstance:
     - target: {fileID: 1796270339314768579, guid: 2d6a30da05a0da245998f577529713ee,
         type: 3}
       propertyPath: TextToDisplay
-      value: ROOM Key.
+      value: Llave del Cuarto.
       objectReference: {fileID: 0}
     - target: {fileID: 4879340757395487113, guid: 2d6a30da05a0da245998f577529713ee,
         type: 3}
@@ -18753,19 +18753,28 @@ MonoBehaviour:
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: 65476d7987a9a714abb9f737564d18ea,
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
     type: 3}
-  m_PointAction: {fileID: 0}
-  m_MoveAction: {fileID: -1255338594610483497, guid: 65476d7987a9a714abb9f737564d18ea,
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018,
     type: 3}
-  m_SubmitAction: {fileID: 0}
-  m_CancelAction: {fileID: 0}
-  m_LeftClickAction: {fileID: 0}
-  m_MiddleClickAction: {fileID: 0}
-  m_RightClickAction: {fileID: 0}
-  m_ScrollWheelAction: {fileID: 0}
-  m_TrackedDevicePositionAction: {fileID: 0}
-  m_TrackedDeviceOrientationAction: {fileID: 0}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0

@@ -8912,6 +8912,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 543450651673766240}
+    - target: {fileID: 1796270339314768579, guid: 022a02104910f5a49850bd2e709310d8,
+        type: 3}
+      propertyPath: TextToDisplay
+      value: una Pistola
+      objectReference: {fileID: 0}
     - target: {fileID: 4879340757395487113, guid: 022a02104910f5a49850bd2e709310d8,
         type: 3}
       propertyPath: m_Name
@@ -11675,7 +11680,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: A bottle of Pills
+      value: Un bote de Pildoras
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -17375,9 +17380,9 @@ MonoBehaviour:
   RequiredKey: 2
   particles: {fileID: 1822425775}
   turnOnPanel: {fileID: 11400000, guid: 5aeb7b66046780548a25daa09bc78cf8, type: 2}
-  TextOn: The power is back on, now I can use the elevator.
-  TextOff: Looks like the generator is almost out of fuel, leaving with little to
-    no power this area.
+  TextOn: Ya hay luz, ahora puedo usar el elevador de la morgue.
+  TextOff: Parece que al generador casi no le queda combustible, dejando a esta zona
+    con poca electricidad.
 --- !u!65 &992320193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24501,7 +24506,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: A bottle of Pills
+      value: Un bote de Pildoras
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -24850,7 +24855,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: A bottle of Pills
+      value: Un bote de Pildoras
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -31248,17 +31253,17 @@ PrefabInstance:
     - target: {fileID: 4851777489380667076, guid: e9e00133ffff7484eb00fb25c75504ac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.985
+      value: 1.584
       objectReference: {fileID: 0}
     - target: {fileID: 4851777489380667076, guid: e9e00133ffff7484eb00fb25c75504ac,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.434
+      value: 1.089
       objectReference: {fileID: 0}
     - target: {fileID: 4851777489380667076, guid: e9e00133ffff7484eb00fb25c75504ac,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.712
       objectReference: {fileID: 0}
     - target: {fileID: 4851777489380667076, guid: e9e00133ffff7484eb00fb25c75504ac,
         type: 3}
@@ -31308,12 +31313,12 @@ PrefabInstance:
     - target: {fileID: 8497050843007337340, guid: e9e00133ffff7484eb00fb25c75504ac,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8497050843007337340, guid: e9e00133ffff7484eb00fb25c75504ac,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.46625423
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43283,7 +43288,7 @@ PrefabInstance:
     - target: {fileID: 7567895835533561645, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}
       propertyPath: TextToDisplay
-      value: 5 Handgun Bullets
+      value: 5 balas de Pistola
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43489,7 +43494,7 @@ PrefabInstance:
     - target: {fileID: 7567895835533561645, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}
       propertyPath: TextToDisplay
-      value: 5 Handgun Bullets
+      value: 5 balas de Pistola
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

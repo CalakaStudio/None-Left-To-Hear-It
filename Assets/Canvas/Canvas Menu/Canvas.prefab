@@ -4732,7 +4732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: 09785c7f7e3e28642880cb677227de36, type: 3}
-    _sceneName: Hospital_Start
+    _sceneName: H_Start
 --- !u!114 &4972902554700583099
 MonoBehaviour:
   m_ObjectHideFlags: 0

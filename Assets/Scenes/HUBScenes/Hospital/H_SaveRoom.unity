@@ -22049,7 +22049,7 @@ MonoBehaviour:
   neededKey: 0
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: 064a859bd722a864aa5097b608c3d005, type: 3}
-    _sceneName: Hospital_Morgue
+    _sceneName: H_Morgue
   animator: {fileID: 1069699705}
   AnimationName: MorgeDoor
   changeCamera: {fileID: 1069699704}
@@ -30600,6 +30600,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!64 &1793146503
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34076,7 +34077,7 @@ MonoBehaviour:
   neededKey: 0
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: b45f9b2a12733c647867caac801949ec, type: 3}
-    _sceneName: Hospital_Main
+    _sceneName: H_Main
   animator: {fileID: 879088276}
   AnimationName: SecurityReverseDoor
   changeCamera: {fileID: 879088275}

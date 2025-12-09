@@ -42226,6 +42226,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!64 &1793146503
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -42888,7 +42889,7 @@ MonoBehaviour:
   managerData: {fileID: 11400000, guid: d9ccdd80773d1084cb2831062870e7f9, type: 2}
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: b45f9b2a12733c647867caac801949ec, type: 3}
-    _sceneName: Hospital_Main
+    _sceneName: H_Main
   animator: {fileID: 639050169}
   AnimationName: ElevatorTransition
   changeCamera: {fileID: 466073591}
@@ -55472,7 +55473,7 @@ MonoBehaviour:
   neededKey: 0
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: a2cfb7c003c7d2e43842c8f0238481f5, type: 3}
-    _sceneName: Hospital_SaveRoom
+    _sceneName: H_SaveRoom
   animator: {fileID: 584048112}
   AnimationName: MorgeDoor
   changeCamera: {fileID: 584048110}

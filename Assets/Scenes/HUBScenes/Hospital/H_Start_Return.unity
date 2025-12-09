@@ -5570,8 +5570,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneToLoad._sceneAsset
       value: 
-      objectReference: {fileID: 102900000, guid: b45f9b2a12733c647867caac801949ec,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6676806954991819460, guid: 320f2741bf1cf084090086dd4c7499e9,
         type: 3}
       propertyPath: m_Mesh

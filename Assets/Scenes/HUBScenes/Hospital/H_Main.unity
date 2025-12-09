@@ -14660,7 +14660,7 @@ MonoBehaviour:
   managerData: {fileID: 11400000, guid: d9ccdd80773d1084cb2831062870e7f9, type: 2}
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: 064a859bd722a864aa5097b608c3d005, type: 3}
-    _sceneName: Hospital_Morgue
+    _sceneName: H_Morgue
   animator: {fileID: 1816335133}
   AnimationName: ElevatorTransition
   changeCamera: {fileID: 2107225962}
@@ -15018,6 +15018,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512540327574930225, guid: 320f2741bf1cf084090086dd4c7499e9,
+        type: 3}
+      propertyPath: sceneToLoad._sceneName
+      value: H_SaveRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512540327574930225, guid: 320f2741bf1cf084090086dd4c7499e9,
+        type: 3}
+      propertyPath: sceneToLoad._sceneAsset
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6676806954991819460, guid: 320f2741bf1cf084090086dd4c7499e9,
         type: 3}
@@ -16467,8 +16477,8 @@ MonoBehaviour:
   managerData: {fileID: 11400000, guid: d9ccdd80773d1084cb2831062870e7f9, type: 2}
   neededKey: 3
   sceneToLoad:
-    _sceneAsset: {fileID: 102900000, guid: 3cb4c2da9cfb8fd48a2f5dde22b143a2, type: 3}
-    _sceneName: Credits
+    _sceneAsset: {fileID: 102900000, guid: d1f55950f5fcf30429afc75cd7b9241f, type: 3}
+    _sceneName: DemoEndScreen
   animator: {fileID: 1984713629}
   AnimationName: ExitDoor
   changeCamera: {fileID: 258032398}
@@ -24907,7 +24917,7 @@ MonoBehaviour:
   neededKey: 1
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: a2cfb7c003c7d2e43842c8f0238481f5, type: 3}
-    _sceneName: Hospital_SaveRoom
+    _sceneName: H_SaveRoom
   animator: {fileID: 985759922}
   AnimationName: SecurityDoor
   changeCamera: {fileID: 985759921}
@@ -27049,7 +27059,7 @@ MonoBehaviour:
   neededKey: 0
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: dbe3b9abf4dcf4c44bb2153dae0293fb, type: 3}
-    _sceneName: Hospital_Start_Destroyed
+    _sceneName: H_Start_Return
   animator: {fileID: 2064110428}
   AnimationName: StartDDoor
   changeCamera: {fileID: 2064110426}

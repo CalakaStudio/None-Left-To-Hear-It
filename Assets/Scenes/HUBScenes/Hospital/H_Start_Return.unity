@@ -5561,6 +5561,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6512540327574930225, guid: 320f2741bf1cf084090086dd4c7499e9,
+        type: 3}
+      propertyPath: sceneToLoad._sceneName
+      value: H_Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512540327574930225, guid: 320f2741bf1cf084090086dd4c7499e9,
+        type: 3}
+      propertyPath: sceneToLoad._sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: b45f9b2a12733c647867caac801949ec,
+        type: 3}
     - target: {fileID: 6676806954991819460, guid: 320f2741bf1cf084090086dd4c7499e9,
         type: 3}
       propertyPath: m_Mesh
@@ -7737,7 +7748,7 @@ PrefabInstance:
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.028664
+      value: -6.471
       objectReference: {fileID: 0}
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
@@ -7747,12 +7758,12 @@ PrefabInstance:
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.282484
+      value: 22.196
       objectReference: {fileID: 0}
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.324594
+      value: 0.96100795
       objectReference: {fileID: 0}
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
@@ -7762,7 +7773,7 @@ PrefabInstance:
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9458535
+      value: -0.27652085
       objectReference: {fileID: 0}
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
@@ -7777,7 +7788,7 @@ PrefabInstance:
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -217.882
+      value: -32.105
       objectReference: {fileID: 0}
     - target: {fileID: 2015795269583334439, guid: 8f57bbdafd8558d429bbc822692ed50f,
         type: 3}
@@ -14894,7 +14905,7 @@ MonoBehaviour:
   neededKey: 0
   sceneToLoad:
     _sceneAsset: {fileID: 102900000, guid: b45f9b2a12733c647867caac801949ec, type: 3}
-    _sceneName: Hospital_Main
+    _sceneName: H_Main
   animator: {fileID: 392036359}
   AnimationName: StartDDoor_Inverse
   changeCamera: {fileID: 392036358}
@@ -21966,6 +21977,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1822957611624738266, guid: 10b34f6332c5706459de93e9477aefa3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.156
+      objectReference: {fileID: 0}
+    - target: {fileID: 1822957611624738266, guid: 10b34f6332c5706459de93e9477aefa3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 1822957611624738266, guid: 10b34f6332c5706459de93e9477aefa3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.012
       objectReference: {fileID: 0}
     - target: {fileID: 2001330113976912570, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}

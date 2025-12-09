@@ -171,7 +171,6 @@ public class PlayerController : MonoBehaviour
 
     private void InteractCall(InputAction.CallbackContext context)
     {
-        Debug.Log("PerformedInteracted");
         Ray r = new Ray (transform.position, transform.forward);
         if(Physics.Raycast(r, out RaycastHit hitInfo, interactRange, interactLayer))
         {
@@ -196,7 +195,6 @@ public class PlayerController : MonoBehaviour
         if(!isGrounded)
         {
             controller.Move(new Vector3(0, -1, 0));
-            Debug.Log("Gravity");
         }
         else
         {
@@ -223,7 +221,6 @@ public class PlayerController : MonoBehaviour
                 else
                 {
                     controller.Move(transform.forward * playerInput.y * playerRunSpeed * Time.deltaTime * managerData.gameTime);
-                    Debug.Log("RUN");
                     pAnimator.Play(a_Run);
                 }
             }

@@ -7,6 +7,9 @@ public class Gen_Interaction : MonoBehaviour, I_Interactable
     [SerializeField] int RequiredKey;
     [SerializeField] GameObject particles;
 
+     [Header("Sound")]
+    [SerializeField] GameObject soundGenerator;
+
     [Header("UI Data")]
     [SerializeField] GameEvent turnOnPanel;
     [SerializeField][TextArea(3, 5)] string TextOn;
@@ -43,5 +46,16 @@ public class Gen_Interaction : MonoBehaviour, I_Interactable
     void TurnOn()
     {
         particles.SetActive(false);
+
+        if (soundGenerator != null)
+        {
+            soundGenerator.SetActive(true);
+
+            var audio = soundGenerator.GetComponent<AudioSource>();
+            if (audio != null && !audio.isPlaying)
+            {
+                audio.Play();
+            }
+        }
     }
 }

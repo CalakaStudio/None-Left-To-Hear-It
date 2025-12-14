@@ -22035,7 +22035,7 @@ PrefabInstance:
     - target: {fileID: 7567895835533561645, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}
       propertyPath: TextToDisplay
-      value: 5 Handgun Bullets
+      value: 5 balas de Pistola
       objectReference: {fileID: 0}
     - target: {fileID: 7567895835533561645, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}

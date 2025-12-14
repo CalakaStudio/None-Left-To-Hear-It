@@ -12454,7 +12454,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: "Una bote de p\xEDldoras.\nAyudan a calmar el dolor."
+      value: "Un bote de p\xEDldoras.\nAyudan a calmar el dolor."
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}

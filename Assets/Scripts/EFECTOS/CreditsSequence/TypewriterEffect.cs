@@ -1,11 +1,12 @@
 using System.Collections;
-using System;
 using UnityEngine;
 using TMPro;
 
 [RequireComponent(typeof(TMP_Text))]
 public class TypewriterEffect : MonoBehaviour
 {
+    //DuctTape
+    [SerializeField] string TextToWrite;
     [SerializeField] private TMP_Text _textBox;
 
     //Basic Typewriter Functionality
@@ -28,6 +29,9 @@ public class TypewriterEffect : MonoBehaviour
     [SerializeField] private bool quickSkip;
     [SerializeField] [Min(1)] private int skipSpeedup = 5;
 
+    //ChangeScene References
+    [SerializeField] ChangeDemoScreen sceneChange;
+
     void Awake()
     {
         _textBox = GetComponent<TMP_Text>();
@@ -40,17 +44,23 @@ public class TypewriterEffect : MonoBehaviour
     
     void Start()
     {
-        SetText(_textBox.text);
+        SetText(TextToWrite);
     }
 
     
-    void Update()
+    public void ButtonCall()
     {
-        if(Input.GetMouseButton(0))
+        if(_textBox.maxVisibleCharacters != _textBox.textInfo.characterCount)
         {
-            if(_textBox.maxVisibleCharacters != _textBox.textInfo.characterCount - 1)
-                Skip();
+            Debug.Log("SkippingText");
+            Skip();
         }
+        else
+        {
+            Debug.Log("SkippingText");
+            sceneChange.ChangeScene();
+        }
+        
     }
 
 
@@ -72,7 +82,7 @@ public class TypewriterEffect : MonoBehaviour
     private IEnumerator Typewriter()
     {
         TMP_TextInfo textInfo = _textBox.textInfo;
-        while (_currentVissibleCharacterIndex < textInfo.characterCount +1)
+        while (_currentVissibleCharacterIndex < textInfo.characterCount + 1)
         {
             
 

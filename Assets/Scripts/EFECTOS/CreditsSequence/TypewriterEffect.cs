@@ -84,7 +84,6 @@ public class TypewriterEffect : MonoBehaviour
         TMP_TextInfo textInfo = _textBox.textInfo;
         while (_currentVissibleCharacterIndex < textInfo.characterCount + 1)
         {
-            
 
             char character = textInfo.characterInfo[_currentVissibleCharacterIndex].character;
             _textBox.maxVisibleCharacters++;

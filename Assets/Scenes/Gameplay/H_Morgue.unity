@@ -882,6 +882,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2307126417508303084, guid: 9c842af545cc17944931bf9dfca32c52,
+        type: 3}
+      propertyPath: m_text
+      value: Picked up
+      objectReference: {fileID: 0}
     - target: {fileID: 4870497450122529253, guid: 9c842af545cc17944931bf9dfca32c52,
         type: 3}
       propertyPath: m_Name
@@ -3298,10 +3303,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 8644840182889134066, guid: d21aafccc20035c4db76cf2505dc9e8e,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: c45df5a284c0df94dbb8496fcedc7c49, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bdac8a3515d58844093bf1e9e6a87886, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 0.75
+  m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -13036,7 +13041,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 113e4ab0fae6c0e49b5f20222d4d715e, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 87da80f51dd61c54ca3f8a42770d6a7a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -15268,7 +15274,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: Un bote de Pildoras
+      value: Pills.
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -19253,7 +19259,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: Un bote de Pildoras
+      value: Pills.
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -24431,7 +24437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285216691}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5223991, y: -0.38896352, z: 0.2897265, w: 0.701331}
+  m_LocalRotation: {x: 0.5205277, y: -0.38957354, z: 0.2885012, w: 0.7028873}
   m_LocalPosition: {x: -21.14, y: -0.05, z: 24.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -25712,7 +25718,7 @@ PrefabInstance:
     - target: {fileID: 7567895835533561645, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}
       propertyPath: TextToDisplay
-      value: 5 balas de Pistola
+      value: 5 Bullets.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43284,7 +43290,7 @@ MonoBehaviour:
   positionToSpawn: {x: -33.5, y: -0.5, z: 17.25}
   rotationToSpawn: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
   turnOnPanel: {fileID: 11400000, guid: 5aeb7b66046780548a25daa09bc78cf8, type: 2}
-  TextToDisplay: No hay suficiente luz para usarlo.
+  TextToDisplay: Out of Power
 --- !u!65 &1807875880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44480,7 +44486,7 @@ PrefabInstance:
     - target: {fileID: 7567895835533561645, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}
       propertyPath: TextToDisplay
-      value: 5 balas de Pistola
+      value: 5 Bullets.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45971,7 +45977,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: Un bote de Pildoras
+      value: Pills.
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -55976,7 +55982,7 @@ PrefabInstance:
     - target: {fileID: 1796270339314768579, guid: b280749ac71658448a7a19240a4dd210,
         type: 3}
       propertyPath: TextToDisplay
-      value: Gasolina. Con esto puedo encender el generador.
+      value: Fuel.
       objectReference: {fileID: 0}
     - target: {fileID: 1796270339314768579, guid: b280749ac71658448a7a19240a4dd210,
         type: 3}
@@ -56348,7 +56354,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2139488377}
-  - component: {fileID: 2139488376}
   - component: {fileID: 2139488375}
   - component: {fileID: 2139488378}
   m_Layer: 3
@@ -56379,27 +56384,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4155197, y: 2.8743603, z: 3}
   m_Center: {x: -22.949955, y: 0.9371799, z: 19}
---- !u!114 &2139488376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2139488374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b789fc73561834295349f16e675519, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GM: {fileID: 11400000, guid: d9ccdd80773d1084cb2831062870e7f9, type: 2}
-  playerData: {fileID: 11400000, guid: d1a095b37d3d3b549880142d542f7fb1, type: 2}
-  neededKey: 0
-  ac_DualDoors: {fileID: 2139488378}
-  a_openAnim: a_OpenDoors
-  NavMeshModifier: {fileID: 2141843390}
-  turnOnPanel: {fileID: 11400000, guid: 5aeb7b66046780548a25daa09bc78cf8, type: 2}
-  TextToOpen: You opened the door.
-  TextToClosed: The Door's Closed. You need the EXIT Key to open it.
 --- !u!4 &2139488377
 Transform:
   m_ObjectHideFlags: 0
@@ -56417,7 +56401,6 @@ Transform:
   - {fileID: 3487495312843029135}
   - {fileID: 8626711729640493753}
   - {fileID: 7236910696806524544}
-  - {fileID: 2141843392}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2139488378
@@ -56507,54 +56490,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5676850431607823489, guid: 2183b51d7846cbb488b7d531975c732b, type: 3}
---- !u!1 &2141843390
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2141843392}
-  - component: {fileID: 2141843391}
-  m_Layer: 0
-  m_Name: NavMeshObstacle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!208 &2141843391
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141843390}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 2}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
---- !u!4 &2141843392
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2141843390}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.463, y: 0, z: 18.884}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2139488377}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2144612565
 GameObject:
   m_ObjectHideFlags: 0

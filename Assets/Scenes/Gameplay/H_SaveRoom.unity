@@ -895,6 +895,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2307126417508303084, guid: 9c842af545cc17944931bf9dfca32c52,
+        type: 3}
+      propertyPath: m_text
+      value: Picked up
+      objectReference: {fileID: 0}
     - target: {fileID: 4870497450122529253, guid: 9c842af545cc17944931bf9dfca32c52,
         type: 3}
       propertyPath: m_Name
@@ -8917,7 +8922,7 @@ PrefabInstance:
     - target: {fileID: 1796270339314768579, guid: 022a02104910f5a49850bd2e709310d8,
         type: 3}
       propertyPath: TextToDisplay
-      value: una Pistola
+      value: a Handgun
       objectReference: {fileID: 0}
     - target: {fileID: 4879340757395487113, guid: 022a02104910f5a49850bd2e709310d8,
         type: 3}
@@ -11811,7 +11816,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: Un bote de Pildoras
+      value: Pills
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -17641,9 +17646,8 @@ MonoBehaviour:
   particles: {fileID: 1822425775}
   soundGenerator: {fileID: 638348445}
   turnOnPanel: {fileID: 11400000, guid: 5aeb7b66046780548a25daa09bc78cf8, type: 2}
-  TextOn: Ya hay luz, ahora puedo usar el elevador de la morgue.
-  TextOff: Parece que al generador casi no le queda combustible, dejando a esta zona
-    con poca electricidad.
+  TextOn: Now I can use the elevator.
+  TextOff: Out of fuel.
 --- !u!65 &992320193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24767,7 +24771,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: Un bote de Pildoras
+      value: Pills
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -25116,7 +25120,7 @@ PrefabInstance:
     - target: {fileID: 473567683243806237, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
       propertyPath: TextToDisplay
-      value: Un bote de Pildoras
+      value: Pills
       objectReference: {fileID: 0}
     - target: {fileID: 2357849868324642646, guid: c9d6fab12a85f2b42afd1847f3662703,
         type: 3}
@@ -43553,7 +43557,7 @@ PrefabInstance:
     - target: {fileID: 7567895835533561645, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}
       propertyPath: TextToDisplay
-      value: 5 balas de Pistola
+      value: 5 Bullets
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43759,7 +43763,7 @@ PrefabInstance:
     - target: {fileID: 7567895835533561645, guid: 10b34f6332c5706459de93e9477aefa3,
         type: 3}
       propertyPath: TextToDisplay
-      value: 5 balas de Pistola
+      value: 5 Bullets
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

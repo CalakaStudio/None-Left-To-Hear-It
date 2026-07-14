@@ -628,7 +628,7 @@ PrefabInstance:
     - target: {fileID: 501397975797578304, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: SI
+      value: YES
       objectReference: {fileID: 0}
     - target: {fileID: 518571867970646658, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -653,7 +653,7 @@ PrefabInstance:
     - target: {fileID: 1635413625592261637, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: Movimiento (Tanque)
+      value: MOVE
       objectReference: {fileID: 0}
     - target: {fileID: 1823880203617551012, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -673,12 +673,12 @@ PrefabInstance:
     - target: {fileID: 1837222210651125379, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: Inventario
+      value: INVENTORY
       objectReference: {fileID: 0}
     - target: {fileID: 1852745676847567795, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: VOLVER
+      value: BACK
       objectReference: {fileID: 0}
     - target: {fileID: 1863712286204235581, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -688,7 +688,7 @@ PrefabInstance:
     - target: {fileID: 1890914296314280548, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: MUSICA
+      value: MUSIC
       objectReference: {fileID: 0}
     - target: {fileID: 1910538559283779560, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -698,12 +698,12 @@ PrefabInstance:
     - target: {fileID: 1913311347969316087, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: BRILLO
+      value: BRIGHTNESS
       objectReference: {fileID: 0}
     - target: {fileID: 2009085871160858606, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: PANTALLA COMPLETA
+      value: FULLSCREEN
       objectReference: {fileID: 0}
     - target: {fileID: 2274537632612443632, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -868,7 +868,7 @@ PrefabInstance:
     - target: {fileID: 4074913165617897122, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: Apuntar
+      value: AIM
       objectReference: {fileID: 0}
     - target: {fileID: 4202501945067126273, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -893,22 +893,22 @@ PrefabInstance:
     - target: {fileID: 4785746459866820533, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: Pausa
+      value: PAUSE
       objectReference: {fileID: 0}
     - target: {fileID: 4832691131270887501, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: AJUSTES
+      value: SETTINGS
       objectReference: {fileID: 0}
     - target: {fileID: 5277866515928296352, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: "RESOLUCI\xD3N"
+      value: RESOLUTION
       objectReference: {fileID: 0}
     - target: {fileID: 5330847198306746865, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: VOLUMEN
+      value: VOLUME
       objectReference: {fileID: 0}
     - target: {fileID: 5333454654450744374, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -958,7 +958,7 @@ PrefabInstance:
     - target: {fileID: 5988221950294619588, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: Disparar
+      value: SHOOT
       objectReference: {fileID: 0}
     - target: {fileID: 6046881817358370585, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -968,13 +968,13 @@ PrefabInstance:
     - target: {fileID: 6491359494951566289, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: VOLVER
+      value: BACK
       objectReference: {fileID: 0}
     - target: {fileID: 6523447071633932433, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 03833fae8a5e04844a2856469ff55d35,
+      objectReference: {fileID: 21300000, guid: 794829fb8d51d4a478b0d39f1bee2536,
         type: 3}
     - target: {fileID: 6523447071633932433, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -1009,7 +1009,7 @@ PrefabInstance:
     - target: {fileID: 7427754465611237555, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: SALIR AL ESCRITORIO?
+      value: QUIT TO DESKTOP?
       objectReference: {fileID: 0}
     - target: {fileID: 7563670579609795253, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -1019,7 +1019,7 @@ PrefabInstance:
     - target: {fileID: 7574250147953294768, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: CONTROLES
+      value: CONTROLS
       objectReference: {fileID: 0}
     - target: {fileID: 7778197768077511691, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
@@ -1059,7 +1059,7 @@ PrefabInstance:
     - target: {fileID: 8554958879339594346, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}
       propertyPath: m_text
-      value: Interactuar
+      value: INTERACT
       objectReference: {fileID: 0}
     - target: {fileID: 8596994117555294648, guid: 2e0aa15acb1e3f744a515d2abb4bbb55,
         type: 3}

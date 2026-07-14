@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using System;
 
 [RequireComponent(typeof(TMP_Text))]
 public class TypewriterEffect : MonoBehaviour
@@ -46,25 +47,22 @@ public class TypewriterEffect : MonoBehaviour
     {
         SetText(TextToWrite);
     }
-
-    
-    public void ButtonCall()
+    void Update()
     {
-        if(_textBox.maxVisibleCharacters != _textBox.textInfo.characterCount)
+        if(Input.anyKeyDown)
         {
-            Debug.Log("SkippingText");
-            Skip();
+            if(_textBox.maxVisibleCharacters != _textBox.textInfo.characterCount)
+            {
+                Debug.Log("SkippingText");
+                Skip();
+            }
+            else
+            {
+                Debug.Log("SkippingText");
+                sceneChange.ChangeScene();
+            }
         }
-        else
-        {
-            Debug.Log("SkippingText");
-            sceneChange.ChangeScene();
-        }
-        
     }
-
-
-    
 
     public void SetText(string text)
     {
@@ -76,15 +74,17 @@ public class TypewriterEffect : MonoBehaviour
         _textBox.maxVisibleCharacters = 0;
         _currentVissibleCharacterIndex = 0;
 
+        _textBox.ForceMeshUpdate();
+
         _typewriterCoroutine = StartCoroutine(routine: Typewriter());
     }
 
     private IEnumerator Typewriter()
     {
         TMP_TextInfo textInfo = _textBox.textInfo;
-        while (_currentVissibleCharacterIndex < textInfo.characterCount + 1)
+        while (_currentVissibleCharacterIndex < textInfo.characterCount)
         {
-
+            Debug.Log($"Current visible character index {_currentVissibleCharacterIndex}");
             char character = textInfo.characterInfo[_currentVissibleCharacterIndex].character;
             _textBox.maxVisibleCharacters++;
 
